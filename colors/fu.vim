@@ -45,7 +45,7 @@ hi Folded         ctermfg=255   ctermbg=60                   guifg=#eeeeee  guib
 hi IncSearch      ctermfg=0     ctermbg=223                  guifg=#000000  guibg=#ffd7af
 hi NonText        ctermfg=248   ctermbg=233   cterm=bold     guifg=#a8a8a8  guibg=#121212
 hi Search         ctermfg=0     ctermbg=149                  guifg=#000000  guibg=#afd75f
-hi SignColumn     ctermfg=248                                guifg=#a8a8a8
+hi SignColumn     ctermfg=248   ctermbg=232                             guifg=#a8a8a8
 hi SpecialKey     ctermfg=77                                 guifg=#5fd75f
 hi StatusLine     ctermfg=232   ctermbg=255                  guifg=#080808  guibg=#eeeeee
 hi StatusLineNC   ctermfg=237   ctermbg=253                  guifg=#3a3a3a  guibg=#dadada
@@ -119,3 +119,9 @@ hi rubyPredefinedConstant    ctermfg=167                     guifg=#d75f5f
 hi rubyPseudoVariable        ctermfg=221                     guifg=#ffd75f
 hi rubyStringDelimiter       ctermfg=143                     guifg=#afaf5f
 
+" git gutter
+hi GitGutterAdd             ctermbg=232 ctermfg=2 guifg=#009900
+hi GitGutterChange          ctermbg=232 ctermfg=3 guifg=#bbbb00  
+hi GitGutterDelete          ctermbg=232 ctermfg=1 guifg=#ff2222
+hi GitGutterChangeDelete    ctermbg=232 ctermfg=3 guifg=#bbbb00  
+hi link GitGutterChangeDelete GitGutterChange
