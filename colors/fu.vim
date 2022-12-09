@@ -55,7 +55,7 @@ hi TabLineSel     ctermfg=255   ctermbg=33                   guifg=#eeeeee  guib
 hi VertSplit      ctermfg=237   ctermbg=237                  guifg=#3a3a3a  guibg=#3a3a3a
 hi Visual         ctermfg=24    ctermbg=153                  guifg=#005f87  guibg=#afd7ff
 hi VIsualNOS      ctermfg=24    ctermbg=153                  guifg=#005f87  guibg=#afd7ff
-hi LineNr         ctermfg=234   ctermbg=232                  guifg=#a8a8a8  guibg=#080808
+hi LineNr         ctermfg=242   ctermbg=232                  guifg=#a8a8a8  guibg=#080808
 hi ModeMsg        ctermfg=220                                guifg=#ffd700
 
 hi ErrorMsg       ctermfg=196   ctermbg=52                   guifg=#ff0000  guibg=#5f0000
